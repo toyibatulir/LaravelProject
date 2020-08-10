@@ -1,0 +1,351 @@
+.nav-link{
+    color: #fafafa !important;
+}
+.nav-item{
+    margin-left: 20px;
+}
+.navbar-nav{
+    margin-left: 600px;
+}
+@font-face {
+    font-family: 'Luna';
+    src: url(../fonts/Luna.woff);
+}
+
+h2{
+    font-family: 'Luna';
+    font-size: 50pt;
+    color: #fafafa;
+    font-variant: inherit;
+}
+.btnlogin{
+    width: 88px;
+    border-radius: 25px;
+    margin-left: 25px;
+    color: #fafafa;
+    background: #F7AB73;
+    border: #F7AB73;
+}
+.title{
+    padding-top: 100px;
+    width: 660px;
+    height: 154px;
+    font-weight: 900;
+    font-size: 64px;
+    color: #fafafa;
+    line-height: 120%;
+}
+.title2{
+    padding-top: 140px;
+    width: 340px;
+    height: 96px;
+    font-size: 20px;
+    line-height: 160%;
+    color: #fafafa;
+}
+.point{
+    
+    margin-top: 200px;
+}
+.search{
+    background: #fafafa;
+    margin-top: 140px;
+    padding: 10px 10px 10px 40px;
+    border-radius: 100px;
+    box-shadow: 8 10 5 rgba (0,0,0,0.5);
+}
+.search2{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 0px 0px 0px;
+}
+.search3{
+    float: right;
+    height: 70px;
+    width: 170px;
+    border-radius:100px;
+    background: #4C6BD7;
+
+}
+.input{
+    padding: 5px 0px 5px 10px;
+}
+.rec{
+    height: 61px;
+    font-weight: 750;
+    font-size: 38px;
+    line-height: 160%;
+    letter-spacing: 0.5px;
+    color: #343434;
+}
+.lrm{
+    width: 500px;
+    height: 96px;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0.5px;
+    color: #747474;
+    margin-top: 10px;
+}
+.client{
+    width: 308.64px;
+    height: 50px;
+    margin-top: 50px;
+}
+.more{
+    height: 50px;
+    width: 260px;
+    border-radius: 100px;
+    background: #4C6BD7;
+    margin-top:50px;
+    float: left;
+}
+.card{
+    width: 275px;
+    height: 349px;
+    margin-bottom: 17px;
+    padding: 35px 0px 0px 0px;
+    border-radius: 10px;
+    border: none;
+}
+.judul{
+    height: 26px;
+    font-weight: 800;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #343434;
+    margin-top: 60px;
+}
+.subjudul{
+    height: 19px;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #747474;
+    margin-top: 8px;
+}
+.kotak{
+    width: 233px;
+    margin-top: 60px;
+    padding: 10px;
+    background: rgba(47, 128, 237, 0.2);
+    border-radius: 10px;
+}
+.kotakbiru{
+    width: 233px;
+    margin-top: 60px;
+    padding:10px;
+    background: rgb(129, 147, 218);
+    border-radius: 10px;
+}
+.price{
+    height: 32px;
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    color: #4C6BD7;
+}
+.bulat{
+    width: 48px;
+    height: 48px;
+    background: #4C6BD7;
+    border-radius: 100px;
+}
+.bulat2{
+    float: right;
+    width: 48px;
+    height: 48px;
+    background: #fafafa;
+    border-radius: 100px;
+    border:#fafafa;
+}
+.self {
+    align-self: center
+}
+.k2{
+    background-image: url(../img/bg2.jpg);
+    margin-top: 180px;
+    width: 1130px;
+    height: 418px;
+    border-radius: 20px;
+}
+.do{
+    height: 154px;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 240px;
+}
+.post{
+    margin-top: 80px;
+    width: 200px;
+    height: 70px;
+    color: #fafafa;
+    border-radius: 100px;
+    background: #F7AB73;
+    border: #F7AB73;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+}
+.news{
+    height: 61px;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color:#343434;
+    margin-top: 150px;
+}
+.card-text{
+    height: 66px;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: 0.5px;
+    color: #747474;
+    margin-top: 50px;
+}
+
+.morenews{
+    margin-top: 80px;
+    width: 200px;
+    height: 70px;
+    color: #fafafa;
+    border-radius: 100px;
+    background: #4C6BD7;
+    border: #4C6BD7;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+}
+.decoration{
+    width: 415px;
+    height: 782px;
+    margin-top: 145px;
+    background: #F7AB73;
+    padding-top:80px;
+}
+.gb5{
+    margin-left: 120px;
+}
+.lrm2{
+    margin-top: 240px;
+    margin-left: 70px;
+    line-height: 180%;
+    font-size: 21px;
+    left: 80px;
+    color: #333333;
+}
+.ellipse{
+    width: 45px;
+    height: 45px;
+    padding: 10px 0px 0px 0px;
+    margin-top: 46px;
+    background: #F7AB73;
+    border-radius: 50%;
+}
+.petik{
+    font-family: Nunito Sans;
+    text-align: center;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.sret2{
+    width: 60px;
+    height: 2px;
+    background: #747474;
+    margin-top: 65px;
+    margin-left: 20px;
+}
+.mww{
+    margin-top: 48px;
+    height: 33px;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 33px;
+    color: #343434;
+}
+.ceo{
+    height: 22px;
+    font-size: 13px;
+    line-height: 22px;
+    color: #747474;
+}
+.bulat3{
+    margin-left:70px;
+    width: 48px;
+    height: 48px;
+    background: #fafafa;
+    border-radius: 100px;
+    border: 1px solid #4C6BD7;
+}
+.ftr{
+    width: 100%;
+    height: 75px;
+    background: #343434;
+    color: #fafafa;
+    font-size: 16px;
+    line-height: 500%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+    .k2 {
+        width: 100%;
+    }
+
+    .imager {
+        width: 100%;
+    }
+    .gb5 {
+        margin: 0;
+    }
+    .decoration{ width: auto; height: auto }
+
+    .lrm, .lrm2 {
+        left: 0;
+    }
+
+    .do {
+        margin-left: 10px;
+        font-size: 40px;
+    }
+    .tulisan{
+        padding-top: 60px;
+        height: 115px;
+        columns: 2;
+        font-size: 22px;
+    }
+    .tulisan2{
+        padding-top: 5px;
+        height: 30px;
+        columns: 2;
+        font-size: 7px;
+    }
+    .point{
+        margin-top: 30px;
+        height: 8px;
+        width: 8px;
+    }
+    .job{
+        margin-top:20px;
+        margin-left: 20px;
+        width: 50px;
+        height: 15px;
+        font-weight: 150;
+        font-size: 10px;
+    }
+    .job2{
+        width: 60px;
+        height: 15px;
+        font-size: 6px;
+    }
+}
