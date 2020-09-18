@@ -28,16 +28,22 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" href="/">Home</a>
+                                <a class="nav-link active" href="{{ url('/') }}">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/about">About</a>
+                                <a class="nav-link" href="{{ url('/about') }}">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/contact">Contact</a>
+                                <a class="nav-link" href="{{ url('/contact') }}">Contact</a>
                             </li>
                             <li class="nav-item">
-                                <button type="button" class="btn btn-warning btnlogin">Login</button>
+                                <a class="nav-link" href="{{ url('/mahasiswa') }}">Mahasiswa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url('/jurusan') }}">Jurusan</a>
+                            </li>
+                            <li class="nav-item">
+                                <button type="button" class="btn btn-warning btnlogin" >Login</button>
                             </li>
                         </ul>
                     </div>
@@ -47,9 +53,9 @@
         
     </div>
     @yield('container-fuild')
-    <div class="ftr">
-        Restokita
-    </div>
+    <!-- <footer class="ftr">
+        Restokita 
+    </footer> -->
         
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -13,7 +13,7 @@ body{
     margin-left: 20px;
 }
 .navbar-nav{
-    margin-left: 600px;
+    margin-left: 400px;
 }
 @font-face {
     font-family: 'Luna';
@@ -305,6 +305,7 @@ h2{
     border: 1px solid #4C6BD7;
 }
 .ftr{
+    bottom: 0;
     width: 100%;
     height: 60px;
     background: #343434;
