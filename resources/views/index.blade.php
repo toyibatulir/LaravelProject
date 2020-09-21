@@ -57,7 +57,7 @@
                     <div class="col-md-6" style="padding-top:90px">
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="card" style="width: 270px;height: 350px;border-radius:10px;padding-top: 10px">
+                                <div class="card custom" style="width: 270px;height: 350px;border-radius:10px;padding-top: 10px">
                                     <center><img src="{{ asset('img/chef1.jpg') }}" class="card-img-top" style="width: 180px; height: 180px;"></center>
                                     <div class="card-body">
                                         <div class="kotak">
@@ -71,7 +71,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="card" style="width: 270px;height: 350px;border-radius:10px;padding-top: 10px">
+                                <div class="card custom" style="width: 270px;height: 350px;border-radius:10px;padding-top: 10px">
                                     <center><img src="{{ asset('img/chef2.jpg') }}" class="card-img-top" style="width: 180px; height: 180px;"></center>
                                     <div class="card-body">
                                         <div class="kotak">
@@ -85,7 +85,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="card" style="width: 270px;height: 350px;border-radius:10px;padding-top: 10px">
+                                <div class="card custom" style="width: 270px;height: 350px;border-radius:10px;padding-top: 10px">
                                     <center><img src="{{ asset('img/chef2.jpg') }}" class="card-img-top" style="width: 180px; height: 180px;"></center>
                                     <div class="card-body">
                                         <div class="kotak">
@@ -99,7 +99,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="card" style="width: 270px;height: 350px;border-radius:10px;padding-top: 10px">
+                                <div class="card custom" style="width: 270px;height: 350px;border-radius:10px;padding-top: 10px">
                                     <center><img src="{{ asset('img/chef1.jpg') }}" class="card-img-top" style="width: 180px; height: 180px;"></center>
                                     <div class="card-body">
                                         <div class="kotak">
@@ -132,45 +132,45 @@
                 </div>
                 <div class="row" style="padding-top: 45px">
                     <div class="col-md-3">
-                        <div class="card" style="width: 270px;height: 430px;border-radius:10px;padding: 0px">
+                        <div class="card custom" style="width: 270px;height: 430px;border-radius:10px;padding: 0px">
                             <img src="{{ asset('img/salmon2.jpeg') }}" class="card-img-top">
                             <div class="card-body">
                                 <div class="judul" style="margin-top:6px;text-align: start;font-size: 20px">Salmon - lorem ipsum
                                     dolor sit</div>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
+                                <p class="card-text teks">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
                                     elementum eu</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="card" style="width: 270px;height: 430px;border-radius:10px;padding: 0px">
+                        <div class="card custom" style="width: 270px;height: 430px;border-radius:10px;padding: 0px">
                             <img src="{{ asset('img/telur.jpg') }}" class="card-img-top">
                             <div class="card-body">
                                 <div class="judul" style="margin-top:6px;text-align: start;font-size: 20px">Telur - lorem ipsum
                                     dolor sit</div>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
+                                <p class="card-text teks">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
                                     elementum eu</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="card" style="width: 270px;height: 430px;border-radius:10px;padding: 0px">
+                        <div class="card custom" style="width: 270px;height: 430px;border-radius:10px;padding: 0px">
                             <img src="{{ asset('img/oatmeal.jpg') }}" class="card-img-top">
                             <div class="card-body">
                                 <div class="judul" style="margin-top:6px;text-align: start;font-size: 20px">Oatmeal - lorem ipsum
                                     dolor sit</div>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
+                                <p class="card-text teks">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
                                     elementum eu</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="card" style="width: 270px;height: 430px;border-radius:10px;padding: 0px">
+                        <div class="card custom" style="width: 270px;height: 430px;border-radius:10px;padding: 0px">
                             <img src="{{ asset('img/ubi.jpeg') }}" class="card-img-top">
                             <div class="card-body">
                                 <div class="judul" style="margin-top:6px;text-align: start;font-size: 20px">Ubi - lorem ipsum
                                     dolor sit</div>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
+                                <p class="card-text teks">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
                                     elementum eu</p>
                             </div>
                         </div>

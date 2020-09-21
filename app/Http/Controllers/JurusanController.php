@@ -16,17 +16,17 @@ class JurusanController extends Controller
     public function index()
     {
         $jurusan = Jurusan::all();
-        return view('jurusan.index', ['jurusan' => $jurusan]);
+        return view('jurusan.index', compact('jurusan'));
     }
 
     /**
      * Show the form for creating a new resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\Response  
      */
     public function create()
     {
-        //
+        return view('jurusan.create');
     }
 
     /**
@@ -37,7 +37,13 @@ class JurusanController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'nama_jurusan' => 'required',
+            'prodi' => 'required',
+        ]);
+
+        Jurusan::create($request->all());
+        return redirect('/jurusan')->with('status', 'Data Jurusan Berhasil Ditambahkan!');
     }
 
     /**
@@ -48,7 +54,8 @@ class JurusanController extends Controller
      */
     public function show($id)
     {
-        //
+        $jurusan = Jurusan::find($id);
+        return view('jurusan.show', compact('jurusan'));
     }
 
     /**
@@ -57,9 +64,9 @@ class JurusanController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Jurusan $jurusan)
     {
-        //
+        return view('jurusan.edit', compact('jurusan'));
     }
 
     /**
@@ -69,9 +76,18 @@ class JurusanController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Jurusan $jurusan)
     {
-        //
+        $request->validate([
+            'nama_jurusan' => 'required',
+            'prodi' => 'required',
+        ]);
+        Jurusan::where('id', $jurusan->id)
+            ->update([
+                'nama_jurusan' => $request->nama_jurusan,
+                'prodi' => $request->prodi,
+            ]);
+        return redirect('/jurusan')->with('status', 'Data Jurusan Berhasil Diubah!');
     }
 
     /**
@@ -80,8 +96,9 @@ class JurusanController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Jurusan $jurusan)
     {
-        //
+        Jurusan::destroy($jurusan->id);
+        return redirect('/jurusan')->with('status', 'Data Jurusan Berhasil Dihapus!');
     }
 }

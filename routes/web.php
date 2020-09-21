@@ -30,6 +30,7 @@ Route::get('/about', 'PagesController@about');
 Route::get('/contact', 'PagesController@contact');
 
 Route::get('/mahasiswa', 'MahasiswaController@index');
-Route::get('/jurusan', 'JurusanController@index');
+
+Route::resource('jurusan', 'JurusanController');
 
 

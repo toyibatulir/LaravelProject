@@ -108,7 +108,7 @@ h2{
     margin-top:50px;
     float: left;
 }
-.card{
+.custom{
     width: 275px;
     height: 349px;
     margin-bottom: 17px;
@@ -213,7 +213,7 @@ h2{
     color:#343434;
     margin-top: 150px;
 }
-.card-text{
+.teks{
     height: 66px;
     font-size: 14px;
     line-height: 160%;
